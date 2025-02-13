@@ -6,39 +6,39 @@ This Python-based Health Score Evaluation System calculates an individual's heal
 
 ## Features
 
-Uses WHO-defined normal ranges for vital signs.
+> Uses WHO-defined normal ranges for vital signs.
 
-Computes a health score (0-100) based on deviations from the ideal range.
+> Computes a health score (0-100) based on deviations from the ideal range.
 
-Classifies health status as Excellent, Good, Average, or Poor.
+> Classifies health status as Excellent, Good, Average, or Poor.
 
-Supports both numerical and binary health indicators.
+> Supports both numerical and binary health indicators.
 
-Can be easily integrated into health monitoring applications.
+> Can be easily integrated into health monitoring applications.
 
 ## How It Works
 
-The system defines WHO standard health ranges for vital signs like:
+1. The system defines WHO standard health ranges for vital signs like:
 
-Blood Pressure (Systolic & Diastolic)
+> Blood Pressure (Systolic & Diastolic)
 
-Glucose Levels
+> Glucose Levels
 
-Oxygen Saturation (SpO2)
+> Oxygen Saturation (SpO2)
 
-ECG Heart Rate
+> ECG Heart Rate
 
-Temperature
+> Temperature
 
-Malaria, Hepatitis B, and Widal Test (binary indicators)
+> Malaria, Hepatitis B, and Widal Test (binary indicators)
 
-The user inputs their test results.
+2. The user inputs their test results.
 
-Each vital is compared against the WHO range and assigned a score.
+3. Each vital is compared against the WHO range and assigned a score.
 
-A total health score is computed by averaging all individual scores.
+4. A total health score is computed by averaging all individual scores.
 
-The final health status is categorized as:
+5. The final health status is categorized as:
 
 > Excellent (90-100) ✅
 
