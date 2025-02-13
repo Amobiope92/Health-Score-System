@@ -1,10 +1,10 @@
-## Health-Score-System
+# Health-Score-System
 
-# Overview
+## Overview
 
 This Python-based Health Score Evaluation System calculates an individual's health score based on their vital signs, using WHO standard ranges. It provides a quantitative assessment (0-100) and a categorical classification (Excellent, Good, Average, Poor).
 
-# Features
+## Features
 
 Uses WHO-defined normal ranges for vital signs.
 
@@ -16,7 +16,7 @@ Supports both numerical and binary health indicators.
 
 Can be easily integrated into health monitoring applications.
 
-How It Works
+## How It Works
 
 The system defines WHO standard health ranges for vital signs like:
 
@@ -40,17 +40,14 @@ A total health score is computed by averaging all individual scores.
 
 The final health status is categorized as:
 
-Excellent (90-100) ✅
+> Excellent (90-100) ✅
 
-Good (70-89) 🟡
+> Good (70-89) 🟡
 
-Average (50-69) 🟠
+> Average (50-69) 🟠
 
-Poor (<50) 🔴
+> Poor (<50) 🔴
 
-Installation
-
-Prerequisites
 
 Ensure you have Python installed (version 3.7+).
 
