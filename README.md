@@ -16,37 +16,33 @@ This Python-based Health Score Evaluation System calculates an individual's heal
 
 > Can be easily integrated into health monitoring applications.
 
-## How It Works
+## How It Works 🚀
 
-1. The system defines WHO standard health ranges for vital signs like:
+The system defines **WHO standard health ranges** for vital signs like:
 
-> Blood Pressure (Systolic & Diastolic)
+- **Blood Pressure** (Systolic & Diastolic)
+- **Glucose Levels**
+- **Oxygen Saturation (SpO₂)**
+- **ECG Heart Rate**
+- **Temperature**
+- **Malaria, Hepatitis B, and Widal Test** (binary indicators)
 
-> Glucose Levels
+### 📝 User Input
+- The user **inputs** their test results.
+- Each vital is **compared against WHO ranges** and assigned a **score**.
+- A **total health score** is computed by averaging all individual scores.
 
-> Oxygen Saturation (SpO2)
+### 📊 Final Health Status
+The system categorizes health status into **four levels**:
 
-> ECG Heart Rate
+| Score Range   | Status      | Indicator |
+|--------------|------------|-----------|
+| **90 - 100** | Excellent  | ✅         |
+| **70 - 89**  | Good       | 🟡        |
+| **50 - 69**  | Average    | 🟠        |
+| **< 50**     | Poor       | 🔴        |
 
-> Temperature
-
-> Malaria, Hepatitis B, and Widal Test (binary indicators)
-
-2. The user inputs their test results.
-
-3. Each vital is compared against the WHO range and assigned a score.
-
-4. A total health score is computed by averaging all individual scores.
-
-5. The final health status is categorized as:
-
-> Excellent (90-100) ✅
-
-> Good (70-89) 🟡
-
-> Average (50-69) 🟠
-
-> Poor (<50) 🔴
+---
 
 
 Ensure you have Python installed (version 3.7+).
